@@ -1,0 +1,462 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E2ECF1;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.0625em;
+}
+
+.outer {
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 45px;    /* Footer height */
+}
+
+/*********************************************************************
+
+
+                            Navigation in header
+
+
+**********************************************************************/
+.navbar {
+  border-width: 0 0 2px 0;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar-default .navbar-brand {
+font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #4E78A0;
+    padding: 0 30px 15px 30px;
+    line-height: 10px;
+} 
+
+.navbar-default {
+  background-color: #024b6c;
+  border-color: #008b9b;
+  font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #008b9b;
+  border-color: #008b9b;
+  background-color: #024b6c;
+  outline: none;
+  border-bottom: 0.25rem solid #008b9b;
+}
+
+.navbar-collapse {
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-collapse .navbar-nav > li {
+  font-size: 14px;
+  float: none;
+  display: inline-block;
+}
+
+.navbar-shrink {
+  background-color: #024b6c;
+  border-bottom: 0.25rem solid #008b9b;    
+}
+
+.navbar-brand {
+  color: #fff;
+}
+  
+.nav-link {
+  color: #fff;
+  padding: 1.5rem 1.5rem 1.25rem;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+  color: #008b9b;
+}
+  
+.nav-link:active {
+  color: #008b9b;
+}
+
+.nav-link.active {
+  color: #008b9b;
+  outline: none;
+  border-bottom: 0.25rem solid #008b9b;
+}
+  
+.navbar-default .dropdown ul.dropdown-menu > li > a {
+  color: #33A1C9;
+  border-color: #008b9b;
+  background-color: #024b6c;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a:hover {
+  border-color: #008b9b;
+  color: #33A1C9;
+  background-color: #008b9b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #008b9b;
+  background-color: #024b6c;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #024b6c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #024b6c;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  color: white;
+  border-color: #008b9b;
+  background-color: #024b6c;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #024b6c;
+  color: #33A1C9;
+}
+
+.leaflet {
+  height: 100%; 
+}
+
+.leaflet-container .leaflet-control-attribution {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 0;
+	margin-top: 20px;
+	}
+	
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+	padding: 0 5px;
+	color: #333;
+	}
+
+
+/* Customize fonts */
+  body, label, input, button, select { 
+font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+  }
+
+h2 {
+font-family: 'Nunito', sans-serif;
+  font-size: 15px; 
+  font-weight: 700;
+  color: #024b6c;
+}
+
+h3 {
+font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #024b6c;
+}
+
+h4 {
+font-family: 'Nunito', sans-serif;
+  font-size: 13px; 
+}
+
+h5 {
+font-family: 'Nunito', sans-serif;
+  font-size: 12px;  
+}
+
+#controls {
+/* Appearance */
+background-color: white;
+padding: 0 20px 20px 20px;
+opacity: 0.9;
+zoom: 0.9;
+}
+
+#controls:hover {
+/* Fade in while hovering */
+  opacity: 0.9;
+transition-delay: 0;
+}
+
+.html_control {
+  color: #024b6c;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 10px 10px 10px;
+  float: right;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Position and style citation */
+  #cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+/* If not using map tiles, show a white background */
+  .leaflet-container {
+    background-color: white !important;
+    padding:0;
+  }
+
+.box-right {
+  text-align: right;
+  float: right;
+}
+
+.nav-tabs-custom {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.nav-tabs-custom .nav-tabs li:hover a {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 3px solid #008b9b;
+}
+
+.nav-tabs-custom .nav-tabs li.active:hover a, .nav-tabs-custom .nav-tabs li.active a {
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bold;
+  border-bottom: 3px solid #008b9b;
+}
+
+.awesome-marker-icon-transparent {
+  background: none;
+}
+
+footer {
+  background-color: #024b6c;
+  text-align:center;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  padding-right: 50px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-top: 2px solid #008b9b;
+  height: 45px;
+}
+
+.panel-primary {
+  background-color: #008b9b;
+	border: 1px solid #008b9b;
+	border-radius: 0 10px 0 0 !important;
+	padding: 2px;
+	margin-right: 0;
+}
+
+.panel-primary > .panel-heading {
+	border-radius: 0;
+	background-color: #008b9b;
+	padding: 10px;
+}
+
+.panel-info {
+  background-color: #024b6c;
+	border: 1px solid #024b6c;
+	border-radius: 0 10px 0 0 !important;
+	padding: 2px;
+	margin-right: 0;
+}
+
+.panel-info > .panel-heading {
+	border-radius: 0 !important;
+	background-color: #024b6c;
+	padding: 10px;
+}
+
+.panel-body {
+  background: #E2ECF1 !important;
+}
+
+.panel-primary > .panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    font-size: 12px;
+    content:"\2212";
+    float: left;
+    padding-right: 8px;
+    color: #ffffff;
+}
+
+.panel-info > .panel-heading a:after  {
+    font-family:'Glyphicons Halflings';
+    font-size: 12px;
+    content:"\2212";
+    float: left;
+    padding-right: 8px;
+    color: #ffffff;
+}
+	
+.panel-primary > .panel-heading a.collapsed:after {
+    font-family:'Glyphicons Halflings';
+    font-size: 12px;
+    content:"\2b";
+    float: left;
+    padding-right: 8px;
+    color: #ffffff;
+}
+
+.panel-info > .panel-heading a.collapsed:after {
+    font-family:'Glyphicons Halflings';
+    font-size: 12px;
+    content:"\2b";
+    float: left;
+    padding-right: 8px;
+    color: #ffffff;
+}
+	
+.panel-title, .panel-primary > .panel-title, .panel-info > .panel-title {
+    font-weight: 200;
+    font-size: 12px;
+    color: #ffffff;
+    }
+
+.legend {
+    color: #000033;
+    background: #fff;
+    border-left: 4px rgba(0, 0, 0, .2);
+    border-right: 4px rgba(0, 0, 0, .2);
+    border-top: 4px rgba(0, 0, 0, .2);
+    border-bottom: 4px rgba(0, 0, 0, .2);
+    clear: both;
+}
+
+.btn-default {
+  background-color: #DCDCDC;
+  border: 1px solid #A9A9A9;
+	border-radius: 5px !important;
+	font-size: 10px;
+	float: left;
+	clear: both;
+}
+
+.btn-primary { 
+  background-color: #B0B0B0;
+	border: 1px solid #B0B0B0;
+	border-radius: 0px 10px 0px 0px;
+	padding: 2px;
+	margin-right: 0px;
+	height: 35px;
+	font-size: 12px;
+	color: black;
+	padding-left: 13px;
+	text-align: left;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active { 
+  background-color: #DCDCDC;
+	border: 1px solid #DCDCDC;
+	border-radius: 0px 10px 0px 0px !important;
+	padding: 2px;
+	margin-right: 0;
+	height: 35px;
+	font-size: 12px;
+	color: black;
+	padding-left: 13px;
+	text-align: left;
+}
+
+.btn-primary > i {
+  padding-right: 8px;
+}
+
+div.info.legend.leaflet-control br {
+  clear: both;
+}
+
+.small-box {
+    font-size: 13px;
+    width: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+.highcharts-background {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.highcharts-container {
+  width: 200px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.pretty {
+  font-size: 12px;
+}
+
+.control-label,
+.selectize-dropdown, 
+.selectize-dropdown-header, 
+.selectize-dropdown-header-close, 
+.selectize-input, 
+.selectize-input > *,
+.selectize-input input,
+.selectize-dropdown .optgroup-header{
+  font-size: 12px;
+}
+
+.shiny-notification {
+  font-family: 'Nunito', sans-serif;
+  width: 135px;
+  font-size: 12px;
+  color: white;
+  background-color: #024b6c;
+  position: fixed;
+  top: calc(50%);
+  left: calc(50%);
+  }
+
+.shiny-notification .icon {
+  color: white;
+}

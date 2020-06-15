@@ -1,0 +1,13 @@
+name: dob-calcoast-places
+title: dob-calcoast-places
+username:
+account: grap
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1968777
+bundleId: 3145543
+url: https://grap.shinyapps.io/dob-calcoast-places/
+when: 1589431583.49224
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: www/Cal_Coast_Data_Explorer_logo.png

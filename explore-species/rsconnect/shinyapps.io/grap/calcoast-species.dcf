@@ -1,0 +1,12 @@
+name: calcoast-species
+title: calcoast-species
+username:
+account: grap
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1967824
+bundleId: 2899365
+url: https://grap.shinyapps.io/calcoast-species/
+when: 1584649290.10978
+asMultiple: FALSE
+asStatic: FALSE
