@@ -24,6 +24,7 @@ source("functions.R")
 Watersheds <- readRDS("data/watershed_polygons.rds")
 #' ##### MPAs
 MPAs <- readRDS("data/MPA_polygons.rds")
+# MPAs@data <- MPAs@data %>% dplyr::distinct(.keep_all = TRUE)
 #' ##### Counties
 Counties <- readRDS("data/county_polygons.rds")
 #' ##### Hexagons

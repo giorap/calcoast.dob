@@ -41,7 +41,7 @@ page <- navbarPage(title = HTML("<a href='https://calcoast.dob.bio'><img src = '
                                                           
                                                           fluidRow(height = "100%",
                                                                    column(width = 2, style = "padding-right: 0; margin-right: 0", height = "100%",
-                                                                          h3('Biodiversity Indicators', style = "padding-left: 10px;"),
+                                                                          h3(HTML('Biodiversity Indicators <br /> for the Intertidal Zone'), style = "padding-left: 10px;"),
                                                                           
                                                                           bsCollapse(id = "report_menu", open = "Report menu",
                                                                                      bsCollapsePanel("Richness", style = "primary",

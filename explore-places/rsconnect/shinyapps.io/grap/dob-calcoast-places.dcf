@@ -5,9 +5,9 @@ account: grap
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1968777
-bundleId: 3145543
+bundleId: 3312909
 url: https://grap.shinyapps.io/dob-calcoast-places/
-when: 1589431583.49224
+when: 1593036012.30959
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: www/Cal_Coast_Data_Explorer_logo.png
